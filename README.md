@@ -1,6 +1,4 @@
-# Мои заметки
-
-## Содержание
+# Содержание
 
 - [Databases](./Databases/)
 - [Docker](./Docker/)
