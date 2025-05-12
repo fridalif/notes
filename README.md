@@ -1,7 +1,7 @@
 # Содержание
 
 - [Books](./Books/README.md)
-	- [Селигман "Оптимизм"](./Books/Seligman_Optimizm.md)
+	- [Селигман "Оптимизм"](./Books/Seligman_Optimism.md)
 - [Databases](./Databases/README.md)
 - [Docker](./Docker/README.md)
 - [Golang](./Golang/README.md)

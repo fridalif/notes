@@ -1,3 +1,3 @@
 ## Содержание
 
-- [Селигман "Оптимизм"](./Seligman_Optimizm.md)
+- [Селигман "Оптимизм"](./Seligman_Optimism.md)
