@@ -16,27 +16,28 @@
 |--|--|--something_test.go
 |--|--\package2...
 |--\internal
-|--|--\handler
-|--|--|--handler1.go
-|--|--|--handler1_mocks.go
-|--|--|--handler1_test.go
-|--|--|--handler2.go
-|--|--|--handler2_mocks.go
-|--|--|--handler2_test.go...
-|--|--\repository
-|--|--|--repository1.go
-|--|--|--repository1_mocks.go
-|--|--|--repository1_test.go
-|--|--|--repository2.go
-|--|--|--repository2_mocks.go
-|--|--|--repository2_test.go..
-|--|--\service
-|--|--|--service1.go
-|--|--|--service1_mocks.go
-|--|--|--service1_test.go
-|--|--|--service2.go
-|--|--|--service2_mocks.go
-|--|--|--service2_test.go..
+|--|--\object1
+|--|--|--\handler
+|--|--|--|--handler1.go
+|--|--|--|--handler1_mocks.go
+|--|--|--|--handler1_test.go
+|--|--|--|--handler2.go
+|--|--|--|--handler2_mocks.go
+|--|--|--|--handler2_test.go...
+|--|--|--\repository
+|--|--|--|--repository1.go
+|--|--|--|--repository1_mocks.go
+|--|--|--|--repository1_test.go
+|--|--|--|--repository2.go
+|--|--|--|--repository2_mocks.go
+|--|--|--|--repository2_test.go..
+|--|--|--\service
+|--|--|--|--service1.go
+|--|--|--|--service1_mocks.go
+|--|--|--|--service1_test.go
+|--|--|--|--service2.go
+|--|--|--|--service2_mocks.go
+|--|--|--|--service2_test.go..
 |--|--\ipackage1
 |--|--\ipackage2...
 ```
@@ -50,7 +51,7 @@
 ### internal
 
 Предназначена для организации критических пакетов, реализующих бизнес-логику. Особенностью данной директории является то, что её нельзя скачать через go get в отличии от pkg.
-Зачастую в Web выделяют минимум 3 пакета:
+Зачастую в Web выделяют минимум 3 поддериктории у каждого идейного объекта:
 - repository (Содержит логику работы с БД)
 - service (Содержит бизнес-логику, вызывает repository)
 - handler (Содержит обработку запросов-ответов, вызывает service)
